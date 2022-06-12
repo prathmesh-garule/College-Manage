@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/home"
+        />
+
+    <item android:title="Notice"
+        android:icon="@drawable/ic_notice"
+        android:id="@+id/notice"/>
+
+    <item android:title="E-book"
+        android:icon="@drawable/ic_book"
+        android:id="@+id/ebook"/>
+
+    <item android:title="Gallery"
+        android:icon="@drawable/ic_gallery"
+        android:id="@+id/gallery"/>
+
+    <item android:title="About"
+        android:icon="@drawable/ic_about"
+        android:id="@+id/about"/>
+</menu>

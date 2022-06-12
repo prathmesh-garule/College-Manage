@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/drawable/ic_book.xml" value="0.1015" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/drawable/ic_login.xml" value="0.1565" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/drawable/ic_logout.xml" value="0.1015" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/layout/fragment_about.xml" value="0.1" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/layout/fragment_ebook.xml" value="0.146875" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/layout/fragment_gallery.xml" value="0.146875" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/layout/fragment_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/layout/headerfile.xml" value="0.16666666666666666" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/layout/slide_item.xml" value="0.1" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/layout/slider_item.xml" value="0.1234375" />
+        <entry key="..\:/SEM 4/RPPOPS/Studentapp2/app/src/main/res/menu/navigation_drawer.xml" value="0.1" />
+        <entry key="..\:/SEM 4/RPPOPS/TryStudentapp/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/SEM 4/RPPOPS/TryStudentapp/app/src/main/res/layout/fragment_about.xml" value="0.10185185185185185" />
+        <entry key="..\:/SEM 4/RPPOPS/TryStudentapp/app/src/main/res/layout/fragment_ebook.xml" value="0.10185185185185185" />
+        <entry key="..\:/SEM 4/RPPOPS/TryStudentapp/app/src/main/res/layout/fragment_gallery.xml" value="0.10185185185185185" />
+        <entry key="..\:/SEM 4/RPPOPS/TryStudentapp/app/src/main/res/layout/fragment_home.xml" value="0.10185185185185185" />
+        <entry key="..\:/SEM 4/RPPOPS/TryStudentapp/app/src/main/res/layout/fragment_notice.xml" value="0.10185185185185185" />
+        <entry key="..\:/SEM 4/RPPOPS/TryStudentapp/app/src/main/res/menu/bottom_navmenu.xml" value="0.16666666666666666" />
+        <entry key="..\:/SEM 4/RPPOPS/project/updated5/Student-APP/Studentapp2/Studentapp2-5d9b731d3641b0675504ee61eb566dc8a930432b/app/src/main/res/layout/activity_registration.xml" value="0.17552083333333332" />
+        <entry key="..\:/Studentapp2/app/src/main/res/drawable/ic_dashboard.xml" value="0.1" />
+        <entry key="..\:/Studentapp2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Studentapp2/app/src/main/res/layout/fragment_notice.xml" value="0.25" />
+        <entry key="..\:/Studentapp2/app/src/main/res/layout/newsfeed_itemlayout.xml" value="0.1" />
+        <entry key="..\:/Studentapp2/app/src/main/res/layout/slider_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
