@@ -9,6 +9,7 @@ import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -32,6 +33,8 @@ public class Registration extends AppCompatActivity {
     private DatabaseReference reference;
     private DatabaseReference dBref;
 
+    private TextView openlog;
+
 
 
     @Override
@@ -48,6 +51,10 @@ public class Registration extends AppCompatActivity {
         regpassword = findViewById(R.id.regpassword);
         register = findViewById(R.id.registersubmit);
 
+        openlog = findViewById(R.id.openlogin);
+
+
+
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,7 +63,20 @@ public class Registration extends AppCompatActivity {
             }
         });
 
+        openlog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openLogin();
+            }
+        });
+
     }
+
+    private void openLogin() {
+        startActivity(new Intent(Registration.this,loginactivity.class));
+        finish();
+    }
+
     @Override
     protected void onStart() {
         super.onStart();
@@ -149,6 +169,8 @@ public class Registration extends AppCompatActivity {
 
             }
         });
+
+
 
 
 
