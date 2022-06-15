@@ -25,10 +25,7 @@
     </group>
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/login_menu"
-            android:icon="@drawable/ic_login"
-            android:title="Login" />
+
 
         <item
             android:id="@+id/logout_menu"

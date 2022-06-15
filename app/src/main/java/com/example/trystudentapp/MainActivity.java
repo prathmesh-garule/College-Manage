@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //    int[] images = {R.drawable.coep2,R.drawable.impress,R.dr}
 
     SliderView sliderView;
-    int[] images = {
+    int[] images = {R.drawable.coep2,R.drawable.mind1,
             R.drawable.impress,R.drawable.psf,R.drawable.mind,R.drawable.coep2,R.drawable.zest};
 
     //    @SuppressLint("NonConstantResourceId")
@@ -164,9 +164,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Toast.makeText(this, "course", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.login_menu:
-                Toast.makeText(this, "login", Toast.LENGTH_SHORT).show();
-                break;
+
 
             case R.id.logout_menu:
                 Toast.makeText(this, "logout", Toast.LENGTH_SHORT).show();
