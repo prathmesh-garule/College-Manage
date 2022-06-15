@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //    int[] images = {R.drawable.coep2,R.drawable.impress,R.dr}
 
     SliderView sliderView;
-    int[] images = {R.drawable.coep2,R.drawable.mind1,
-            R.drawable.impress,R.drawable.psf,R.drawable.mind,R.drawable.coep2,R.drawable.zest};
+    int[] images = {R.drawable.coep2,R.drawable.mind1,R.drawable.mind4,R.drawable.coep3,
+            R.drawable.impress,R.drawable.psf,R.drawable.mind,R.drawable.coep4,R.drawable.zest};
 
     //    @SuppressLint("NonConstantResourceId")
     @Override
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         switch (item.getItemId()) {
             case R.id.home_menu:
-                Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show();
+                replaceFragment(new HomeFragment());
                 break;
             case R.id.dashboard_menu:
                 Toast.makeText(this, "Dashboard", Toast.LENGTH_SHORT).show();
@@ -162,12 +162,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             case R.id.courses_menu:
                 Toast.makeText(this, "course", Toast.LENGTH_SHORT).show();
+                replaceFragment(new AboutFragment());
                 break;
 
 
 
             case R.id.logout_menu:
-                Toast.makeText(this, "logout", Toast.LENGTH_SHORT).show();
+                auth.signOut();
+                openLogin();
                 break;
             case R.id.share_menu:
                 Toast.makeText(this, "share", Toast.LENGTH_SHORT).show();
