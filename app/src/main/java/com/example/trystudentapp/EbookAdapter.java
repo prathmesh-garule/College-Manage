@@ -36,12 +36,12 @@ public class EbookAdapter extends RecyclerView.Adapter<EbookAdapter.EbookViewHol
     public void onBindViewHolder(@NonNull EbookViewHolder holder, @SuppressLint("RecyclerView") int position) {
 
         EbookData currentItem = list.get(position);
-        holder.ebookName.setText(currentItem.getName());
+        holder.ebookName.setText(currentItem.getPdfTitle());
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context,list.get(position).getName(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(context,list.get(position).getPdfTitle(),Toast.LENGTH_SHORT).show();
             }
         });
         holder.ebookDownload.setOnClickListener(new View.OnClickListener() {

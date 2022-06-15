@@ -1,31 +1,29 @@
 package com.example.trystudentapp;
 
 public class EbookData {
-    private String name,pdfUrl;
-
-    public EbookData()
-    {
+    private String pdfTitle,pdfURL;
+    public EbookData() {
 
     }
-    public EbookData(String name, String pdfUrl) {
-        this.name = name;
-        this.pdfUrl = pdfUrl;
+
+    public EbookData(String pdfTitle, String pdfURL) {
+        this.pdfTitle = pdfTitle;
+        this.pdfURL = pdfURL;
     }
 
-
-    public String getName() {
-        return name;
+    public String getPdfTitle() {
+        return pdfTitle;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPdfTitle(String pdfTitle) {
+        this.pdfTitle = pdfTitle;
     }
 
-    public String getPdfUrl() {
-        return pdfUrl;
+    public String getPdfURL() {
+        return pdfURL;
     }
 
-    public void setPdfUrl(String pdfUrl) {
-        this.pdfUrl = pdfUrl;
+    public void setPdfURL(String pdfURL) {
+        this.pdfURL = pdfURL;
     }
 }
