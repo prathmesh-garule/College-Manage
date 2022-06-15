@@ -10,13 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TryStudentapp">
         <activity
+            android:name=".EbookActivity"
+            android:exported="false" />
+        <activity
             android:name=".loginactivity"
             android:exported="false" />
         <activity
             android:name=".Registration"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -25,7 +26,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
