@@ -12,6 +12,9 @@
         android:layout_height="wrap_content"
         android:text="Ebook"
         android:textSize="20sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/black"
+        android:background="@drawable/notice_shape"
         android:textAlignment="center">
     </TextView>
 
