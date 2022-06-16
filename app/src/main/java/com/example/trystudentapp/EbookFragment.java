@@ -49,7 +49,7 @@ public class EbookFragment extends Fragment {
         pd = view.findViewById(R.id.ProgressBar);
 
         ebookRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
-        ebookRecycler.setHasFixedSize(true);
+       // ebookRecycler.setHasFixedSize(true);
 
         getData();
         return view;
@@ -65,6 +65,7 @@ public class EbookFragment extends Fragment {
                     list.add(data);
                 }
                 adapter = new EbookAdapter(getContext(),list);
+                adapter.notifyDataSetChanged();
                 //ebookRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
                 pd.setVisibility(View.GONE);
                 ebookRecycler.setAdapter(adapter);
