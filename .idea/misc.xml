@@ -28,12 +28,13 @@
         <entry key="..\:/SEM 4/RPPOPS/project/updated5/Student-APP/Studentapp2/Studentapp2-5d9b731d3641b0675504ee61eb566dc8a930432b/app/src/main/res/layout/slider_item.xml" value="0.17552083333333332" />
         <entry key="..\:/SEM 4/RPPOPS/project/updated5/Student-APP/Studentapp2/Studentapp2-5d9b731d3641b0675504ee61eb566dc8a930432b/app/src/main/res/menu/bottom_navmenu.xml" value="0.17552083333333332" />
         <entry key="..\:/SEM 4/RPPOPS/project/updated5/Student-APP/Studentapp2/Studentapp2-5d9b731d3641b0675504ee61eb566dc8a930432b/app/src/main/res/menu/navigation_drawer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Studentapp2-5d/app/src/main/res/drawable/ic_book.xml" value="0.197" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/drawable/notice_shape.xml" value="0.213" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/activity_ebook.xml" value="0.1" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/activity_loginactivity.xml" value="0.25" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/activity_registration.xml" value="0.25" />
-        <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/ebook_item_layout.xml" value="0.16" />
+        <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/ebook_item_layout.xml" value="0.264" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/fragment_ebook.xml" value="0.1721014492753623" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/fragment_home.xml" value="0.1" />
@@ -42,6 +43,8 @@
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/headerfile.xml" value="0.1" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/newsfeed_itemlayout.xml" value="0.1" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/layout/slider_item.xml" value="0.1" />
+        <entry key="..\:/Studentapp2-5d/app/src/main/res/menu/bottom_navmenu.xml" value="0.25" />
+        <entry key="..\:/Studentapp2-5d/app/src/main/res/menu/navigation_drawer.xml" value="0.25" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.104" />
         <entry key="..\:/Studentapp2-5d/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.213" />
         <entry key="..\:/Studentapp2/app/src/main/res/drawable/ic_dashboard.xml" value="0.1" />
